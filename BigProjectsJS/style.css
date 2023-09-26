@@ -1,0 +1,112 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Oswald:wght@400;500;700&family=Ubuntu:wght@300;400;700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    --white: #fff;
+    --black: #000;
+    --darck: #404149;
+    --accent: #f7654a;
+    --darck-light: #999;
+
+
+
+}
+
+ul,
+ol,
+li {
+    list-style: none;
+}
+
+body {
+    font-family: Oswald;
+    font-weight: 400;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+
+.hero {
+    background-image: url("./img/Rectangle.jpg");
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+
+.hero_content {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+h1 {
+    max-width: 850px;
+    color: var(--white);
+    font-size: 64px;
+    font-weight: 500;
+    text-transform: uppercase;
+    text-align: center;
+
+}
+
+.hero_subtitle {
+    color: var(--white);
+    font-size: 18px;
+    line-height: 27px;
+    letter-spacing: 0em;
+    text-align: center;
+    margin-top: 15px;
+
+
+}
+
+.hero_list {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 30px;
+    width: 100%;
+    padding: 60px 130px;
+    background-color: var(--white);
+
+}
+
+.hero_item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.item_title {
+    font-family: Oswald,sans-serif;
+    font-weight: 500;
+    font-size: 72px;
+    color: var(--accent);
+}
+
+.item_subtitle {
+    margin-top: 15px;
+    font-weight: 500;
+    font-size: 36px;
+    color: var(--black);
+
+}
+
+.item_description {
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--darck-light);
+}
