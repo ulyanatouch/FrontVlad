@@ -1,0 +1,32 @@
+.grid-container {
+    display: grid;
+    grid-template: repeat(3, 100px) / repeat(5, 1fr);
+    gap: 10px 10px;
+  }
+  .number1 {
+    background: rgb(204, 238, 102);
+    grid-area: 1/1/4/4;
+  }
+  .grid-item {
+    background: rgb(172, 239, 239);
+  }
+  
+  .number1-2 {
+    grid-column: 2 / span 4;
+  }
+  
+  .number1-3 {
+    grid-column: 1/ span 5;
+    background: rgb(134, 238, 102);
+  }
+  
+  .number1-5 {
+    grid-column: 2/5;
+    background: rgb(238, 231, 102);
+  }
+  
+  .media {
+    width: 400px;
+    height: 500px;
+    background: rgb(134, 238, 102);
+  }
