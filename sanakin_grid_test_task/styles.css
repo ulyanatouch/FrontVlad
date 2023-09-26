@@ -1,0 +1,35 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html,
+body {
+  font-family: 'Inter', sans-serif;
+  font-size: 14px;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #000000;
+}
+
+button {
+  border: none;
+}
+
+.sidebar-container {
+  width: 250px;
+  background: #fbf9f8;
+  min-height: 100vh;
+}
+/* 16px = шрифт корневого шрифта стандартный */
+/* 27px/16px  */
+#logo {
+  padding: 1.7rem;
+}
