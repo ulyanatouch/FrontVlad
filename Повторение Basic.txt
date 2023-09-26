@@ -1,0 +1,103 @@
+Первая пара:
+div, p, h1-h6, img, a, span, button, ul, ol, li, header, footer
+посмотрели, как создать css файл и подключить его к html файлу
+разобрали разницу между тегами классами и id для назначения стилей
+посмотрели margin, padding, border у элементов
+Немного повторили flex-box
+сверстали хедер у макета
+
+Вторая пара:
+Border-box
+Позиционирование (position) , static(default)  absolute, relative, fixed, sticky, static(default) 
+Display: inline, block,  inline-block, none, flex
+Flex-box продолжение (flex-direction, flex-wrap, order, flex-grow, flex-shrink, align-self
+Цвета rgba, hex https://flatuicolors.com/ https://www.rapidtables.com/convert/color/hex-to-rgb.html
+Псевдоклассы
+
+Третья пара: 
+Относительные и абсолютные величины ( vw, vw, %, em/rem) продолжение
+Z-index, Object-fit, Float, visibility vs display, box-shadow
+псевдоэлементы  ::before ::after
+Animation: transition + transform 
+Form  
+
+https://www.figma.com/file/Wk4rRnZl9i5VVfkyVj2THg/Sign-Up-Form-(Community)?node-id=3%3A3&mode=dev
+
+Третья пара (продолжение): 
+1. Переменные
+2. Условный оператор
+3. Циклы и массивы
+4. Объекты
+5. Функции и методы 
+
+Третья пара (вторая часть) JS. DOM
+Поиск элементов и изменение значений
+Создание элементов
+Обработка событий
+Работа со стилями
+
+
+
+
+
+Список полезных ссылок:
+HTML структура(основа):
+https://html5book.ru/osnovy-html/
+https://zametkinapolyah.ru/verstka-sajtov/struktura-html-dokumenta-tip-html-dokumenta-zagolovok-html-dokumenta-telo-html-dokumenta-granicy-html-dokumenta.html
+
+Box-sizing
+https://www.w3schools.com/css/css3_box-sizing.asp
+https://developer.mozilla.org/en-US/docs/Web/CSS/box-sizing
+
+Position css: 
+https://www.w3schools.com/cssref/pr_class_position.php
+https://developer.mozilla.org/ru/docs/Web/CSS/position 
+
+Display (block, inline, inline-block):
+https://html5book.ru/block-inline-elements
+https://www.w3schools.com/cssref/pr_class_display.php
+https://learn.javascript.ru/display
+
+Относительные величины:
+https://learn.javascript.ru/css-units 
+https://www.w3schools.com/cssref/css_units.php
+
+https://techrocks.ru/2019/08/07/units-in-css-for-beginners/
+
+Float: 
+https://learn.javascript.ru/float
+
+Clear:
+https://developer.mozilla.org/ru/docs/Web/CSS/clear
+
+Z-index: 
+https://idg.net.ua/blog/uchebnik-css/razmetka-css/z-index
+https://www.w3schools.com/cssref/pr_pos_z-index.php
+
+Псевдоклассы:
+https://doka.guide/css/pseudoclasses/
+
+Псевдоэлементы:
+https://doka.guide/css/pseudoelements/
+
+box-shadow generator:
+https://cssgenerator.org/box-shadow-css-generator.html
+
+transform:
+https://www.w3schools.com/cssref/css3_pr_transform.php
+
+transition: 
+https://www.w3schools.com/css/css3_transitions.asp
+
+Form:
+https://developer.mozilla.org/ru/docs/Web/HTML/Element/form
+https://html5css.ru/html/html_forms.php
+
+Типы инпутов:
+https://www.w3schools.com/html/html_form_input_types.asp
+
+https://www.w3schools.com/html/html_forms.asp
+https://www.geeksforgeeks.org/html-forms/
+
+
+
