@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>To-Do-List</title>
+    <link rel="stylesheet" href="css/reset.css" />
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <div class="header__inner">
+          <div class="header__box">
+            <img src="./images/user.jpg" alt="user" />
+            <p class="header__text">0 tasks pending</p>
+          </div>
+          <h1 class="header__title">TaskDo</h1>
+          <button class="header__clear" type="button">Clear All</button>
+        </div>
+      </div>
+    </header>
+
+    <section class="main__section">
+      <div class="container">
+        <form class="form">
+          <div class="form__box">
+            <input class="form__text" type="text" placeholder="Add New Task" />
+            <button class="form__btn" type="submit">Add</button>
+          </div>
+        </form>
+        <ul class="list">
+          <li class="list__item-empty">
+            <img src="./images/leaf.svg" alt="Empty" width="50" />
+            <div class="empty-list__title">the to-do list is empty</div>
+          </li>
+          <!-- <li class="list__item">
+          <button class="delete__btn" type="button">
+            <img src="./images/delete.svg" alt="delete">
+          </button>
+          <button class="check__btn" type="button"></button>
+          <p class="list__text list__text-active">1</p>
+        </li> -->
+        </ul>
+      </div>
+    </section>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
