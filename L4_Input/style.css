@@ -1,0 +1,59 @@
+.float-obj {
+    background: rgb(212, 20, 168);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+.float-obj1 {
+    background: rgb(5, 96, 43);
+    width: 300px;
+    height: 300px;
+    margin-bottom: 10px;
+}
+
+p {
+    clear: right;
+    font-family: 'Comfortaa', cursive;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+}
+
+img {
+    float: right;
+    object-fit: cover;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.flex-div {
+    display: flex;
+    justify-content: end;
+}
+
+.div-with-before {
+    position: relative;
+    height: 400px;
+    width: 400px;
+    /* background: rgb(174, 238, 154); */
+    padding: 30px;
+    margin: 50px;
+    border-top: 1px solid rgb(202, 188, 188);
+}
+
+.div-with-before::before {
+    top: -12px;
+    position: absolute;
+    content: 'OUR SERVICES';
+    background: #ffffff;
+    color: rgb(202, 188, 188);
+    padding: 0 10px 0 10px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
