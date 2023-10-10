@@ -1,0 +1,15 @@
+ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+}
+
+.darkMode {
+  background: #000000;
+  color: #ffffff;
+}
