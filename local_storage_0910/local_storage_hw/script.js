@@ -24,6 +24,8 @@
 //   });
 
 // ====================================================================================
+// Получаем значение счетчика из localStorage и преобразуем его в число
+// let count = Number(localStorage.getItem('count')) || 0; // Если нет сохраненного значения, устанавливаем 0
 
 let count = 0;
 const btn = document.querySelector("#btn");
@@ -32,13 +34,17 @@ const countPar = document.querySelector(".value");
 const btnNull = document.querySelector("#btnNull");
 const savedCount = localStorage.getItem("count");
 
-// value.innerText = count;
+// Обновляем текст в параграфе с текущим значением счетчика
+// value.innerText = count; 
+
 
 btn.addEventListener("click", () => {
   count = count + 1; //a++
   countPar.innerText = count;
 
-  localStorage.setItem("count", count.toString());
+  // Сохраняем значение счетчика в localStorage после каждого изменения
+  localStorage.setItem('count', count);
+  // localStorage.setItem("count", count.toString());
 });
 
 // btn.addEventListener('click', () => console.log(++count));
@@ -48,6 +54,8 @@ btn2.addEventListener("click", () => {
   count -= 1;
   countPar.innerText = count;
 
+    // Сохраняем значение счетчика в localStorage после каждого изменения
+  localStorage.setItem('count', count);
   localStorage.setItem("count", count.toString());
 });
 
@@ -55,5 +63,7 @@ btnNull.addEventListener("click", () => {
   count = 0;
   countPar.innerText = count;
 
+    // Сохраняем значение счетчика в localStorage после сброса
+  localStorage.setItem('count', count);
   localStorage.setItem("count", count.toString());
 });
